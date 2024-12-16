@@ -134,7 +134,13 @@ footer {
     padding: 2rem;
 }
 
-
+@media (max-width : 1146px){
+    .project-contend {
+        margin: 0 1rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+}
 
 @media (max-width: 940px) {
     
