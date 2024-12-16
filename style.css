@@ -134,11 +134,10 @@ footer {
     padding: 2rem;
 }
 
-@media (max-width : 1146px){
+@media (max-width : 1145px){
     .project-contend {
         margin: 0 1rem;
-        margin-left: 0rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
 
