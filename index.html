@@ -64,6 +64,37 @@
 
     <section class="Works">
         <h2 id="project">Projects</h2>
+        <!-- 1 -->
+        <div class="project">
+            <img src="assets/eatwell.png" alt="">
+            <div class="project-contend">
+                <h3>EatWell - Food Ordering Website</h3>
+                <p>EatWell is a comprehensive food ordering platform designed to simplify the process of ordering
+                    delicious meals. Built using the MERN stack, this website offers a seamless experience for users,
+                    restaurant owners, and administrators.
+
+                </p>
+                <br>
+                <ul>
+                    <li><b>User-Friendly Interface:</b> A visually appealing and intuitive design that makes it easy for users to browse menus and place orders.</li>
+                    <li><b>Admin Panel:</b> An integrated admin panel for managing restaurants, menus, orders, and customer feedback efficiently.</li>
+                    <li><b>Secure and Scalable Backend:</b> A robust backend built with Node.js and Express.js ensures smooth operations and data security.</li>
+                    <li><b>Database Management:</b> All data is securely stored and managed using MongoDB, ensuring reliability and scalability.</li>
+                </ul>
+                <br>
+
+                <p>technology :-  React.js, Node.js, Express.js, MongoDB, Git, Thunder Client. etc</p>
+            </div>
+            <br><br>
+            <div class="project-btn">
+                <form action="https://github.com/bherubhati01/EatWell-Food-Web---2">
+                    <button>Code</button>
+                </form>
+                <form action="https://eatwell-mjxi.onrender.com/">
+                    <button>Live Preview</button>
+                </form>
+            </div>
+        </div>
         <div class="project">
             <img src="https://res.cloudinary.com/dykensbzc/image/upload/v1733556628/Screenshot_2024-12-07_125853_bdvgry.png"
                 alt="">
@@ -210,19 +241,19 @@
         // Get the hamburger icon and nav menu
         const bar = document.querySelector('.bar');
         const navAbout = document.querySelector('.nav-links');
-    
+
         // Toggle the visibility of the nav menu on click
         bar.addEventListener('click', () => {
             navAbout.classList.toggle('to-bar');
         });
 
         window.addEventListener('scroll', () => {
-        if (navAbout.classList.contains('to-bar')) {
-            navAbout.classList.remove('to-bar');
-        }
-    });
+            if (navAbout.classList.contains('to-bar')) {
+                navAbout.classList.remove('to-bar');
+            }
+        });
     </script>
-    
+
 </body>
 
 </html>
