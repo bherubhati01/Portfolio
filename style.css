@@ -13,6 +13,23 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+p,li,h3,a,h1,h2{
+    transition: all .3s;
+}
+p:hover, li:hover, h3:hover, a:hover, h1:hover, h2:hover{
+    /* color: #6a05a9; */
+    /* transition: all 2s; */
+    background-color: #d6c0e2;
+}
+
+button{
+    cursor: pointer;
+    transition: all 1.5s;
+}
+button:hover{
+    opacity: 0.3;
+}
+
 .bar{
     display: none;
 }
@@ -101,6 +118,10 @@ footer {
     border: 5px solid #f5dafd;
     max-height: 25rem;
     max-width: 40rem;
+    transition: all 2s;
+}
+.project img:hover{
+    transform: scale(1.1);
 }
 
 .project-contend {
